@@ -1,5 +1,15 @@
 # Changelog
 
+
+## [1.1.2] - 2026-05-12
+
+### Changed
+- Updated README installation instructions to reflect Arduino Library Manager availability.
+- Improved README formatting and public documentation polish.
+- No code changes.
+
+
+
 ## [1.1.1] - 2026-05-11
 
 Initial public release candidate of CrashHive32.
