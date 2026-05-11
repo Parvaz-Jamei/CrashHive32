@@ -1,0 +1,10 @@
+.vscode/
+.idea/
+build/
+dist/
+*.bin
+*.elf
+*.map
+*.hex
+*.log
+.DS_Store

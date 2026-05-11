@@ -1,0 +1,25 @@
+name: Arduino Compile
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  compile-examples:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: arduino/compile-sketches@v1
+        with:
+          fqbn: esp32:esp32:esp32
+          platforms: |
+            - name: esp32:esp32
+              source-url: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+          sketch-paths: |
+            - examples/01_BlackBox_Basic
+            - examples/02_Heartbeat_Monitor
+            - examples/03_Neighbor_Watchdog
+            - examples/04_Full_Demo_Three_Nodes
+            - examples/06_Field_Diagnostics
