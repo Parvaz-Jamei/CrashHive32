@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/Arduino%20Library%20Manager-available-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino Library Manager: available">
   </a>
   <a href="library.properties">
-    <img src="https://img.shields.io/badge/version-1.1.1-2563EB?style=for-the-badge" alt="Version 1.1.1">
+    <img src="https://img.shields.io/badge/version-1.1.2-2563EB?style=for-the-badge" alt="Version 1.1.1">
   </a>
   <img src="https://img.shields.io/badge/platform-ESP32-0F172A?style=for-the-badge&logo=espressif&logoColor=white" alt="Platform ESP32">
   <a href="LICENSE">
